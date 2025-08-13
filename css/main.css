@@ -58,6 +58,15 @@ body {
   margin: 0 auto;
 }
 
+.applepodcasts-svg {
+  background-color: #832BC1;
+  border-radius: 15%;
+}
+
+.sondcloud-svg {
+  border-radius: 15%;
+}
+
 .header {
   padding: 26px 0;
 }
@@ -106,6 +115,14 @@ body {
 .section-hero {
   padding: 40px 0;
 }
+.section-hero-title {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
 .section-hero-img {
   width: 650px;
   height: 873px;
@@ -122,6 +139,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 60px;
+  max-width: 530px;
 }
 
 .services-list {

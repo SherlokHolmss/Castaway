@@ -2,15 +2,21 @@
     &-hero {
         padding: 40px 0;
 
+        &-title {
+            font-family: DM Sans;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 70px;
+            line-height: 88px;
+            letter-spacing: 3.2px;
+
+        }
+
         &-img {
             width: 650px;
             height: 873px;
         }
-
-
     }
-
-
 }
 
 .hero-flex-wrap {
@@ -18,7 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-
+    max-width: 530px;
 }
 
 .services-list {
@@ -26,5 +32,5 @@
     align-items: center;
     gap: 17px;
     max-width: 245px;
-    
+
 }
