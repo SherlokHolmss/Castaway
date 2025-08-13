@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASTAWAY</title>
+    <title>Castaway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,72 +19,77 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="" class="header-logo">
-                <svg width="159.15" height="32.62" class="logo-svg">
-                    <use href="./img/symbol-defs.svg#icon-logo"></use>
-                </svg>
-            </a>
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="">Home</a></li>
-                    <li class="nav-item"><a href="">Episodes</a></li>
-                    <li class="nav-item"><a href="">About</a></li>
-                    <li class="nav-item"><a href="">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="header-wrap">
+                <a href="" class="header-logo">
+                    <svg width="159.15" height="32.62" class="logo-svg">
+                        <use href="./img/symbol-defs.svg#icon-logo"></use>
+                    </svg>
+                </a>
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="">Home</a></li>
+                        <li class="nav-item"><a href="">Episodes</a></li>
+                        <li class="nav-item"><a href="">About</a></li>
+                        <li class="nav-item"><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <section class="section-hero">
-                <img src="./img/image1.png" alt="Something went wrong..." class="hero-image">
-                <div class="hero-wrap">
-                    <h1 class="hero-title">
-                        Take your podcast to the next level
-                    </h1>
-                    <div class="hero-list-wrap">
-                        <p class="list-description">Listen on</p>
-                        <ul class="services-list">
-                            <li class="services-item">
-                                <a href="" class="services-link">
-                                    <svg class="services-svg" widht="32" height="32">
-                                        <use href="./img/symbol-defs.svg#icon-spotify"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="services-item">
-                                <a href="" class="services-link">
-                                    <svg class="services-svg" widht="32" height="32">
-                                        <use href="./img/symbol-defs.svg#icon-pockedcasts"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="services-item">
-                                <a href="" class="services-link">
-                                    <svg class="services-svg" widht="32" height="32">
-                                        <use href="./img/symbol-defs.svg#icon-sondcloud"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="services-item">
-                                <a href="" class="services-link">
-                                    <svg class="services-svg" widht="32" height="32">
-                                        <use href="./img/symbol-defs.svg#icon-applepodcasts"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="services-item">
-                                <a href="" class="services-link">
-                                    <svg class="services-svg" widht="32" height="32">
-                                        <use href="./img/symbol-defs.svg#icon-radio"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
 
+        <section class="section-hero">
+            <div class="container">
+                <div class="hero-flex-wrap">
+                    <img src="./img/image1.png" alt="Something went wrong..." class="hero-image">
+                    <div class="hero-wrap">
+                        <h1 class="hero-title">
+                            Take your podcast to the next level
+                        </h1>
+                        <div class="hero-list-wrap">
+                            <p class="list-description">Listen on</p>
+                            <ul class="services-list">
+                                <li class="services-item">
+                                    <a href="" class="services-link">
+                                        <svg class="services-svg" widht="32" height="32">
+                                            <use href="./img/symbol-defs.svg#icon-spotify"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="" class="services-link">
+                                        <svg class="services-svg" widht="32" height="32">
+                                            <use href="./img/symbol-defs.svg#icon-pockedcasts"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="" class="services-link">
+                                        <svg class="services-svg" widht="32" height="32">
+                                            <use href="./img/symbol-defs.svg#icon-sondcloud"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="" class="services-link">
+                                        <svg class="services-svg" widht="32" height="32">
+                                            <use href="./img/symbol-defs.svg#icon-applepodcasts"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="" class="services-link">
+                                        <svg class="services-svg" widht="32" height="32">
+                                            <use href="./img/symbol-defs.svg#icon-radio"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </section>
         <section class="section-blog">
             <div class="container">
