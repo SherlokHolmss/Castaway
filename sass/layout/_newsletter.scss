@@ -1,0 +1,43 @@
+.newsletter {
+    padding: 100px 0;
+
+    &-wrap {
+        width: 1300px;
+        height: 387px;
+        border-radius: 32px;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+    }
+
+    &-desc-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-description {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0%;
+        color: #118DA8;
+        text-align: left;
+    }
+
+    &-title {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 72px;
+        line-height: 79.2px;
+        letter-spacing: 2.88px;
+        text-align: left;
+        max-width: 431px;
+    }
+}

@@ -1,6 +1,5 @@
 .biography {
     padding: 100px;
-    margin-bottom: 100px;
 
     &-button {
         width: 112px;
@@ -42,6 +41,7 @@
         font-size: 65px;
         line-height: 79.2px;
         letter-spacing: 2.88px;
+
     }
 
     &-flex-wrap {
@@ -51,13 +51,18 @@
 
 
         gap: 60px;
-        border: 1px solid black;
     }
 
     &-wrap {
         max-width: 590px;
         max-height: 448px;
-        border: 1px solid black;
+
+    }
+
+    &-img {
+        width: 650px;
+        height: 743px;
+        border-radius: 12px;
 
     }
 }

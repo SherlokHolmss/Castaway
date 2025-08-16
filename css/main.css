@@ -247,8 +247,8 @@ body {
   padding: 40px;
 }
 .blog-article-img {
-  width: 389;
-  height: 432;
+  width: 389px;
+  height: 432px;
   margin-right: 53px;
 }
 .blog-article-category {
@@ -317,7 +317,6 @@ body {
 
 .biography {
   padding: 100px;
-  margin-bottom: 100px;
 }
 .biography-button {
   width: 112px;
@@ -373,10 +372,67 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 60px;
-  border: 1px solid black;
 }
 .biography-wrap {
   max-width: 590px;
   max-height: 448px;
-  border: 1px solid black;
+}
+.biography-img {
+  width: 650px;
+  height: 743px;
+  border-radius: 12px;
+}
+
+.newsletter {
+  padding: 100px 0;
+}
+.newsletter-wrap {
+  width: 1300px;
+  height: 387px;
+  border-radius: 32px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px;
+}
+.newsletter-desc-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.newsletter-description {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #118DA8;
+  text-align: left;
+}
+.newsletter-title {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 72px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+  text-align: left;
+  max-width: 431px;
 }/*# sourceMappingURL=main.css.map */
