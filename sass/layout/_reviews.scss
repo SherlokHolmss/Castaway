@@ -1,0 +1,22 @@
+.reviews {
+    padding: 100px;
+
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    &-item {
+        width: 423px;
+        height: 321px;
+        border-radius: 32px;
+        background-color: rgba(0, 0, 0, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

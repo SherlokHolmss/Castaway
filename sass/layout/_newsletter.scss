@@ -16,7 +16,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     &-description {
@@ -39,5 +39,45 @@
         letter-spacing: 2.88px;
         text-align: left;
         max-width: 431px;
+    }
+
+    &-form {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+
+        &-input {
+            width: 522px;
+            height: 82px;
+            opacity: 1;
+            top: 0.13px;
+            border-radius: 6px;
+            border-width: 1px;
+            background-color: #191919;
+            border: none;
+
+            &::placeholder {
+                padding-left: 20px;
+            }
+        }
+
+        &-button {
+            font-family: DM Sans;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 15px;
+            line-height: 28.8px;
+            letter-spacing: 0%;
+            width: 87px;
+            height: 48px;
+            opacity: 1;
+            top: 204.13px;
+            border-radius: 6px;
+            background-color: #118DA8;
+            color: rgba(255, 255, 255, 0.7);
+        
+        }
     }
 }
