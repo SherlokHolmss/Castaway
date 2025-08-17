@@ -528,4 +528,28 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding: 50px;
+}
+
+.review-title {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 43.2px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review-description {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.review-star {
+  fill: rgb(252, 255, 81);
 }/*# sourceMappingURL=main.css.map */
