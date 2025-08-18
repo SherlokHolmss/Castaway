@@ -12,23 +12,19 @@ The site contains **7 sections**, each with specific information, such as:
 - **SASS** – modular and maintainable styles  
 - **Git** – version control  
 
-
 ## 📂 Project Structure
-css/ → minified CSS files
-img/ → images and SVG file (1x, 2x, webp versions for better resolution)
-sass/ → structured SCSS files
-├─ abstracts/ → variables
-├─ base/ → core styles of the website
-├─ components/ → reusable UI components
-├─ layout/ → section-specific styles
-└─ main/ → SCSS file imports
-index.html → main file, the skeleton of the website
-
-
+- **css/** → minified CSS files  
+- **img/** → images and SVG files (1x, 2x, webp versions for better resolution)  
+- **sass/** → structured SCSS files  
+  - **abstracts/** → variables  
+  - **base/** → core styles of the website  
+  - **components/** → reusable UI components  
+  - **layout/** → section-specific styles  
+  - **main/** → SCSS file imports  
+- **index.html** → main file, the skeleton of the website  
 
 ## 🚀 Features
 - Clean and modular project structure  
 - Easy to maintain and expand  
 - Organized SASS architecture  
 - Optimized images with **1x, 2x, webp versions** for different screen resolutions  
-
