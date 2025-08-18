@@ -21,7 +21,7 @@
         font-style: Regular;
         font-size: 17px;
         line-height: 27px;
-        letter-spacing: 0%;
+        @extend %button-hover;
     }
 
     &-wrap {
@@ -115,8 +115,7 @@
             font-style: Regular;
             font-size: 18px;
             line-height: 27px;
-            letter-spacing: 0%;
-
+            @extend %button-hover;
         }
     }
 }

@@ -1,6 +1,16 @@
 .footer {
     padding: 100px 0 120px 0;
 
+    .community-svg {
+        fill: #FFFFFF;
+        @extend %svg-hover;
+    }
+
+    &-logo {
+        fill: #FFFFFF;
+        @extend %svg-hover;
+    }
+
     &-flex-wrap {
         display: flex;
         justify-content: space-around;
@@ -21,17 +31,23 @@
         fill: rgba(255, 255, 255, 1);
     }
 
-    .footer-nav-list {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-    }
-
-    .footer-links-list {
+    &-nav-list {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
+    &-links-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &-links-link {
+        @extend %links-hover;
+    }
+
+    &-nav-link {
+        @extend %links-hover;
+    }
 }

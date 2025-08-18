@@ -1,10 +1,12 @@
 // @import "./abstracts/variables";
+@import "./abstractrs/placeholders";
 @import "./base/reset";
 @import "./base/typography";
 @import "./base/background";
 @import "./base/container";
 @import "./components/svg";
 @import "./components/span";
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/blog";

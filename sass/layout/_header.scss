@@ -1,5 +1,6 @@
 .header {
     padding: 26px 0;
+
     &-wrap {
         display: flex;
         justify-content: space-between;
@@ -8,11 +9,7 @@
 
     &-logo {
         fill: #FFFFFF;
-
-        &:hover {
-            transition: 0.5s;
-            fill: #118DA8;
-        }
+        @extend %links-hover;
     }
 
 
@@ -32,10 +29,6 @@
         line-height: 27px;
         letter-spacing: 0%;
         color: #FFFFFF;
-
-        &:hover {
-            transition: 0.5s;
-            color: #118DA8;
-        }
+        @extend %links-hover;
     }
 }
