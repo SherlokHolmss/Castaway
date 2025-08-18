@@ -478,20 +478,6 @@ body {
   border-width: 1px;
   background-color: #191919;
   border: none;
-}
-.newsletter-form-input::-webkit-input-placeholder {
-  padding-left: 20px;
-}
-.newsletter-form-input::-moz-placeholder {
-  padding-left: 20px;
-}
-.newsletter-form-input:-ms-input-placeholder {
-  padding-left: 20px;
-}
-.newsletter-form-input::-ms-input-placeholder {
-  padding-left: 20px;
-}
-.newsletter-form-input::placeholder {
   padding-left: 20px;
 }
 .newsletter-form-button {

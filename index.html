@@ -27,18 +27,19 @@
                 </a>
                 <nav class="header-nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="">Home</a></li>
-                        <li class="nav-item"><a href="">Episodes</a></li>
-                        <li class="nav-item"><a href="">About</a></li>
-                        <li class="nav-item"><a href="">Contact</a></li>
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#episodes">Episodes</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="container">
+                <a id="home"></a>
                 <div class="hero-flex-wrap">
                     <img src="./img/image1.png" alt="Something went wrong..." class="hero-image">
                     <div class="hero-wrap">
@@ -93,6 +94,7 @@
         </section>
         <section class="blog">
             <div class="container">
+                <a id="episodes"></a>
                 <div class="blog-wrap">
                     <h2 class="blog-title">Latest episodes</h2>
                     <button class="blog-button">View all episodes</button>
@@ -145,6 +147,7 @@
         </section>
         <section class="biography">
             <div class="container">
+                <a id="about"></a>
                 <div class="biography-flex-wrap">
                     <div class="biography-wrap">
                         <button class="biography-button">
@@ -164,6 +167,7 @@
         </section>
         <section class="newsletter">
             <div class="container">
+                <a id="contact"></a>
                 <div class="newsletter-wrap">
                     <div class="newsletter-desc-wrap">
                         <p class="newsletter-description">Email Newsletter</p>
@@ -171,7 +175,7 @@
                     </div>
                     <form action="" class="newsletter-form">
                         <input type="text" class="newsletter-form-input" placeholder="Name">
-                        <input type="text" class="newsletter-form-input" placeholder="Email">
+                        <input type="email" class="newsletter-form-input" placeholder="Email">
                         <button class="newsletter-form-button">Submit</button>
                     </form>
                 </div>
@@ -358,10 +362,10 @@
 
                 <nav class="footer-nav">
                     <ul class="footer-nav-list">
-                        <li class="footer-nav-item"><a href="" class="footer-nav-link">Home</a></li>
-                        <li class="footer-nav-item"><a href="" class="footer-nav-link">About</a></li>
-                        <li class="footer-nav-item"><a href="" class="footer-nav-link">Episodes</a></li>
-                        <li class="footer-nav-item"><a href="" class="footer-nav-link">Contact</a></li>
+                        <li class="footer-nav-item"><a href="#home" class="footer-nav-link">Home</a></li>
+                        <li class="footer-nav-item"><a href="#episodes" class="footer-nav-link">About</a></li>
+                        <li class="footer-nav-item"><a href="#about" class="footer-nav-link">Episodes</a></li>
+                        <li class="footer-nav-item"><a href="#contact" class="footer-nav-link">Contact</a></li>
                     </ul>
                 </nav>
 
