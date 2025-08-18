@@ -1,0 +1,37 @@
+.footer {
+    padding: 100px 0 120px 0;
+
+    &-flex-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &-community-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community-list {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .community-svg {
+        fill: rgba(255, 255, 255, 1);
+    }
+
+    .footer-nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .footer-links-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
