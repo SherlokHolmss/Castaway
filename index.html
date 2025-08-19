@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Castaway</title>
-    <meta name="description"
-        content="Castaway is a podcast about audio, gear, and recording tips. 
+    <meta name="description" content="Castaway is a podcast about audio, gear, and recording tips. 
         Listen to the latest episodes, learn from host Jacob Paulaner, 
         and take your podcast to the next level.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +44,10 @@
             <div class="container">
                 <a id="home"></a>
                 <div class="hero-flex-wrap">
-                    <img src="./img/image1.png" alt="Something went wrong..." class="hero-image">
+                    <picture class="hero-image">
+                        <source srcset="./img/image1@1x.webp 1x, ./img/image1@2x.webp 2x,  ./img/image1@3x.webp 3x" type="image/webp">
+                        <img src="./img/image1@1x.jpg" srcset="./img/image1@2x.jpg 2x,./img/image1@3x.jpg 3x" alt="Something went wrong..." >
+                    </picture>
                     <div class="hero-wrap">
                         <h1 class="hero-title">
                             Take your podcast to the <span class="underlined-text">next</span> <span
