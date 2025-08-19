@@ -7,21 +7,21 @@
   background-color: transparent;
 }
 
-.footer-nav-link, .footer-links-link, .nav-item, .header-logo {
+.footer-nav-link, .footer-links-link, .nav-item {
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
-.footer-nav-link:hover, .footer-links-link:hover, .nav-item:hover, .header-logo:hover {
+.footer-nav-link:hover, .footer-links-link:hover, .nav-item:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #118DA8;
 }
 
-.footer-logo, .footer .community-svg {
+.footer-logo, .footer .community-svg, .header-logo {
   -webkit-transition: fill 0.5s ease;
   transition: fill 0.5s ease;
 }
-.footer-logo:hover, .footer .community-svg:hover {
+.footer-logo:hover, .footer .community-svg:hover, .header-logo:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   fill: #118DA8;
