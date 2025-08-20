@@ -149,14 +149,10 @@ body {
 .section-hero {
   padding: 40px 0;
 }
-.section-hero-img {
-  width: 650px;
-  height: 873px;
-}
 
 .hero-wrap {
   min-width: 530px;
-  min-height: 610px;
+  min-height: 6p0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,6 +166,9 @@ body {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
+}
+.hero-image {
+  border-radius: 14px;
 }
 
 .hero-title {

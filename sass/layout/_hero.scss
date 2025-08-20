@@ -2,23 +2,24 @@
     &-hero {
         padding: 40px 0;
 
-        &-img {
-            width: 650px;
-            height: 873px;
-        }
+
     }
 
 }
 
+
 .hero {
     &-wrap {
         min-width: 530px;
-        min-height: 610px;
+        min-height: 6p0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: left;
+    }
 
+    &-image {
+        border-radius: 14px;
     }
 }
 
@@ -44,5 +45,5 @@
     gap: 17px;
     max-width: 245px;
     margin-top: 16px;
-    
+
 }
