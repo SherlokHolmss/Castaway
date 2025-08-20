@@ -1,14 +1,6 @@
-.section {
-    &-hero {
-        padding: 40px 0;
-
-
-    }
-
-}
-
-
 .hero {
+    padding: 40px 0;
+
     &-wrap {
         min-width: 530px;
         min-height: 6p0px;
@@ -21,24 +13,23 @@
     &-image {
         border-radius: 14px;
     }
-}
 
-.hero-title {
-    font-family: DM Sans;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 70px;
-    line-height: 88px;
-    letter-spacing: 3.2px;
-    margin-bottom: 90px;
-}
+    &-title {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 70px;
+        line-height: 88px;
+        letter-spacing: 3.2px;
+        margin-bottom: 90px;
+    }
 
-.hero-flex-wrap {
-    display: flex;
-    gap: 60px;
-    max-width: 530px;
+    &-flex-wrap {
+        display: flex;
+        gap: 60px;
+        max-width: 530px;
+    }
 }
-
 .services-list {
     display: flex;
     align-items: center;

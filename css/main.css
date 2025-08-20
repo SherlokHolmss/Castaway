@@ -146,10 +146,9 @@ body {
   color: #FFFFFF;
 }
 
-.section-hero {
+.hero {
   padding: 40px 0;
 }
-
 .hero-wrap {
   min-width: 530px;
   min-height: 6p0px;
@@ -170,7 +169,6 @@ body {
 .hero-image {
   border-radius: 14px;
 }
-
 .hero-title {
   font-family: DM Sans;
   font-weight: 400;
@@ -180,7 +178,6 @@ body {
   letter-spacing: 3.2px;
   margin-bottom: 90px;
 }
-
 .hero-flex-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
